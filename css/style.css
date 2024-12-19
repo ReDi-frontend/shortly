@@ -165,6 +165,36 @@ ul {
 /* //SITE HEADER */
 
 
+
+/* HERO */
+.hero {
+    padding-top: 90px;
+    padding-bottom: 222px;
+    background-image: url(../img/working_with_computer.svg);
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 475px) top 30px;
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: var(--text-color-dark);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.hero__text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    margin-top: 0;
+    margin-bottom: 38px;
+    color: var(--text-color);
+}
+/* //HERO */
+
+
 /* RETINA BG */
 @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
