@@ -110,7 +110,17 @@ ul {
     font-size: 15px;
     line-height: 22px;
 }
-
+.copy-button--open {
+    background-color: #3A3054;
+}
+.copy-button--open:hover {
+    background-color: #3A3054;
+    opacity: 0.8;
+}
+.copy-button--open:active {
+    background-color: #3A3054;
+    opacity: 0.6;
+}
 
 /* MAIN CONTENT */
 .main-content{
