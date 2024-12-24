@@ -370,6 +370,30 @@ ul {
     font-size: 15px;
 }
 /* //FEATURS */
+
+
+/* CTA */
+.cta {
+    background-image: url(../img/cta-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+.cta__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cta__title {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+/* //CTA */
 /* //INDEX URL SHORTENER AND FEATURES WRAPPER */
 
 
